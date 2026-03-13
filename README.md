@@ -5,6 +5,12 @@
 
 ---
 
+## 🚀 Ejecución Interactiva en la Nube
+
+La arquitectura completa ha sido empaquetada en un entorno interactivo. Puede auditar el código, visualizar los *dataframes* y replicar el *pipeline* sin necesidad de configuraciones locales haciendo clic a continuación:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EsVasqdk1IcQuMZHr-kar1xvDivFCEjU?usp=sharing)
+
 ## 1. Resumen
 Este proyecto implementa una solución automatizada, resiliente y escalable para la extracción, estructuración y refinamiento de datos tabulares a partir de archivos en formato HOCR. El desafío principal radica en inferir la semántica tabular (filas y columnas) a partir de coordenadas puramente espaciales de *bounding boxes* generadas por motores OCR.
 
