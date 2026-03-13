@@ -64,12 +64,10 @@ Google Generative AI: 0.8.6
 ```
 
 ## 5. Instrucciones de Ejecución
-1. El código ha sido empaquetado y adaptado para su revisión interactiva mediante **Google Colab**.
 
-2. Abra el Notebook proporcionado en la entrega.
+El código ha sido empaquetado y adaptado para su revisión interactiva de tipo *Plug & Play* mediante **Google Colab**.
 
-3. Conceda los permisos necesarios para montar su unidad de **Google Drive** y actualice la ruta de los archivos en la variable `PROJECT_FOLDER`.
-
-4. Ejecute las celdas de inicialización. El sistema solicitará de manera segura (vía `getpass`) su API Key de **Google Gemini** para habilitar el módulo de IA.
-
-5. Ejecute el orquestador maestro; los archivos `.csv` finales se generarán en un subdirectorio de resultados y se descargarán automáticamente al equipo local.
+1. Abra el *Notebook* proporcionado en la entrega a través del botón *Open in Colab*.
+2. Ejecute la celda de inicialización del entorno. El *script* clonará automáticamente este repositorio desde GitHub para auto-abastecerse de los archivos de prueba (`.hocr`), sin requerir permisos ni montaje de su Google Drive personal.
+3. El sistema solicitará de manera segura (vía `getpass`) su API Key de **Google Gemini** para habilitar el transductor semántico. Ingrese su clave cuando el entorno lo indique.
+4. Ejecute el orquestador maestro; los archivos `.csv` finales se procesarán en la memoria temporal de la máquina virtual y se forzará su descarga automática al equipo local del evaluador.
